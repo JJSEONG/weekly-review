@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components'
 import { Route } from 'react-router-dom';
+// import { db } from './firebase';
+// import { collection, doc, getDoc, getDocs, addDoc, updateDoc, deleteDoc } from "firebase/firestore";
 
 import Home from './Home'
 import Detail from './Detail'

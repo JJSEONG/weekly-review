@@ -18,3 +18,5 @@ React는 대표적인 SPA(Single Page Application)으로, 페이지를 이동시
 React를 사용하기에 중요한 Hook을 공부하였고, 이번 프로젝트에서는 useState 만을 사용했습니다. 여러 React Hook을 자유자재로 사용할 수 있도록 공부를 해야 합니.
 
 ### 이번 프로젝트로 React의 사용 방법을 알게 되었고, 각종 React에 사용하는 여러 Package도 설치하여 사용해보고, 개인으로 Project도 진행하여 개인적으로 많은 공부가 되었습니다.
+
+[Weekly-Review] https://sparta-react-js-d111a.firebaseapp.com/

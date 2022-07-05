@@ -34,21 +34,18 @@ const Home = (props) => {
       { Week.map((day, index) => {
         // console.log(`KEY : ${index}`)
         return (
-          <>
-            <Line key = { index }>
-              <Day>{day.day}</Day>
-              { Array.from({ length: 5 }, (val, idx) => {
-                // console.log(`인덱스 : ${idx}`)
-                // console.log(Avg)
-                return <Circle key = { idx } style = {{
-                  backgroundColor: day.review > idx && Avg !== 0 ? "pink" : "#ddd",
-                }}></Circle>
-              }) }
-              <Arrow key = { index } onClick = {() => {
-                history.push("/Detail/" + day.day)
-              }}></Arrow>
-            </Line>
-          </>
+          <Line key = { "Line-" + index }>
+            <Day>{day.day}</Day>
+            { Array.from({ length: 5 }, (val, idx) => {
+              // console.log(Avg)
+              return <Circle  key = { day.day + idx } style = {{
+                backgroundColor: day.review > idx && Avg !== 0 ? "pink" : "#ddd",
+              }}></Circle>
+            }) }
+            <Arrow onClick = {() => {
+              history.push("/Detail/" + day.day)
+            }}></Arrow>
+          </Line>
         )
       }) }
 

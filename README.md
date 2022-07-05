@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# 항해99 REACT 기초 입문반
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 내 일주일 평점 만들기
 
-## Available Scripts
+### `1. React 첫 프로젝트 사용 및 JSX 문법 사용하기`
+JavaScript 기반 라이브러리인 React를 처음으로 사용해보는 시간을 가지고, JSX의 기본적인 문법과 사용법을 알아볼 수 있었던 내용입니다.
 
-In the project directory, you can run:
+### `2. props와 state의 내용`
+props와 state의 데이터 관리방법 및 상관관계 등을 알 수 있었고, 여러가지 많은 내용들을 담아 확인할 수 있었습니다. 
 
-### `yarn start`
+### `3. Component`
+Component가 무엇인지 확인해보고, 함수형과 클래스형 Component가 있지만, 최근 React에서 함수형을 권장하고 있어, 함수형으로 프로젝트를 진행하였습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `4. React-router-dom을 사용한 라우팅(Routing)`
+React는 대표적인 SPA(Single Page Application)으로, 페이지를 이동시키기 위해서는 라우팅(Routing)을 진행해야 하며, 이번 프로젝트에서 Main과 Detail 페이지를 라우팅을 위해 사용하였습니다. `useHistor`와 `Link`를 이용해 onClick 등 이벤트를 사용하여 페이지를 이동시킬 수 있습니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `5. useState 등 React Hook 공부`
+React를 사용하기에 중요한 Hook을 공부하였고, 이번 프로젝트에서는 useState 만을 사용했습니다. 여러 React Hook을 자유자재로 사용할 수 있도록 공부를 해야 합니.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 이번 프로젝트로 React의 사용 방법을 알게 되었고, 각종 React에 사용하는 여러 Package도 설치하여 사용해보고, 개인으로 Project도 진행하여 개인적으로 많은 공부가 되었습니다.
